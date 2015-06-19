@@ -1,6 +1,6 @@
 production: 
     last_thing: 
-      - command: cd $STACK_PATH && bundle exec rake db:seed 
-        target: rails 
-        run_on: single_server
-        execute:true
+      # - command: cd $STACK_PATH && bundle exec rake db:seed 
+      #   target: rails 
+      #   run_on: single_server
+      #   execute:true
